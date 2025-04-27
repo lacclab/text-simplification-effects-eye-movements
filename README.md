@@ -9,13 +9,16 @@ Set up environment: run `conda env create -f env.yml`
 ## Download Data
 Follow the instructions in https://github.com/lacclab/OneStop-Eye-Movements.
 
-### Main Analysis Steps
+### Main Files
 
-1. Fig 1: Run 'tbd'
-
-### Reproduce the Results in Appendix
-
-1. Fig A1: Run 'tbd'
+Plots - `src/Eye_metrics/plot_mixed_effects_results.py` (uncomment the relevant Fig lines at the __main__ section)
+Models Fit:
+1. Fig 1 Main effects: `src/Eye_metrics/fit_mixed_effects_julia.py`
+2. Fig 2 Response to RT: `src/Eye_metrics/fit_response_to_linguistic.py`
+3. Fig 3 Effects per subject / item: `src/Eye_metrics/fit_mixed_effects_julia_per_subject_text.py`
+4. Fig 4 Effect per subject by different characteristics: `src/Eye_metrics/fit_julia_effects_by_col.py`
+5. Fig 5 Effect per text by textual properties: `src/Eye_metrics/fit_julia_effects_by_col.py`
+6. Julia functions: `src/Julia_models.py`
 
 ## Citation
 

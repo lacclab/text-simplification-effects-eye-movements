@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "text-simplification-effects-eye-movements"
+version = "0.1.0"
+authors = [
+  {name="Keren Gruteke Klein", email="gkeren - at - campus.technion.ac.il"},
+]
+
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+  # dependencies
+]
+
+[project.urls]
+Homepage = "https://github.com/lacclab/text-simplification-effects-eye-movements"
+repository = "https://github.com/lacclab/text-simplification-effects-eye-movements"
+"Bug Tracker" = "https://github.com/lacclab/text-simplification-effects-eye-movements/issues"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
