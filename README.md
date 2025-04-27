@@ -9,7 +9,7 @@ Set up environment: run `conda env create -f env.yml`
 ## Download Data
 Follow the instructions in https://github.com/lacclab/OneStop-Eye-Movements.
 
-### Main Files
+## Main Files
 
 Plots - `src/Eye_metrics/plot_mixed_effects_results.py` (uncomment the relevant Fig lines at the __main__ section)
 Models Fit:
